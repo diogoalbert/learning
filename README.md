@@ -6,6 +6,9 @@ PUSH AND PULL DE ARQUIVOS
 
 Alterções diferentes para corrigir conflito
 
+conflito quando tento excluir arquivo de sistema
+
+
 
 
 
