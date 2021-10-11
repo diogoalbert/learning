@@ -1,3 +1,8 @@
+body {
+    background: skyblue;
+}
+
+
 #title, .subtitle, .post_title {
 
     color: red;
@@ -13,4 +18,13 @@
 .title {
     font-size: 25px;
     border-color: rgb(119, 139, 46);
+}
+
+.post {
+    background: springgreen;
+    padding: 10px;
+    margin: 2cm;
+    border: 3px solid black;
+
+    
 }
