@@ -1,5 +1,5 @@
 body {
-    background: skyblue;
+    background: sky#505050;
 }
 
 
@@ -9,12 +9,34 @@ body {
 
 }
 
+#title{
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;  
+}
+
+.head_photo {
+    border: chartreuse;
+   padding: green;
+   border-radius: 50%;
+   background: #505050;
+   text-justify: auto;
+}
 .post_title {
     font-size: 25px;
     font-style: italic;
 
 }
-
+.photo_art{
+    margin:auto;
+    border: greenyellow solid 10px;
+    padding: 10px green;
+    justify-content: center;
+    border-image: fill red;
+    image-resolution:inherit;
+}
 .title {
     font-size: 25px;
     border-color: rgb(119, 139, 46);
@@ -27,4 +49,30 @@ body {
     border: 3px solid black;
 
     
+}
+a {
+    text-decoration: underline;
+}
+.artigo_texto {
+    text-justify: newspaper;
+    color: brown;
+    font-language-override: initial;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.contact_list{
+    list-style-type: url("linkedin_logo.png");
+    padding-left: 15px;
+    text-decoration: underline;
+    color: red;
+}
+
+.contact_list li {
+    color: red;
+    list-style-type: url("linkedin_logo.png");
+
+
 }
