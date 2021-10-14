@@ -1,5 +1,7 @@
 body {
     background: sky#505050;
+    max-width: 900px;
+    margin: auto;
 }
 
 
@@ -20,9 +22,10 @@ body {
 .head_photo {
     border: chartreuse;
    padding: green;
-   border-radius: 50%;
    background: #505050;
    text-justify: auto;
+   width: 100%;
+   height: 300px;
 }
 .post_title {
     font-size: 25px;
@@ -35,7 +38,8 @@ body {
     padding: 10px green;
     justify-content: center;
     border-image: fill red;
-    image-resolution:inherit;
+    max-width: 100%;
+   
 }
 .title {
     font-size: 25px;
@@ -72,7 +76,8 @@ a {
 
 .contact_list li {
     color: red;
-    list-style-type: url("linkedin_logo.png");
+    list-style-image: url("linkedin_logo.png");
+
 
 
 }
